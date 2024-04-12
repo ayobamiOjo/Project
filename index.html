@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayobami Ojo Final Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <a href="home.html" target="_blank" id="OldPage">Ayobami Ojo</a>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="theme-toggle">Toggle Theme</button></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home"><div class="intro_Message">
+        <h1>Welcome to Ayobami Ojo Portfolio</h1>
+        <p>Programmer and database Analyst Enthusiast</p>
+    </div>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="AyoImage.jpg" class="about-image">
+        <p>Ayobami Esther Ojo is a young Nigerian student who is curious about the world. She came to Canada to help expand her knowledge.</p>
+        <p>She graduated from Good Shepherd Schools in Ogun State, Nigeria. She attended York University for a few years to study computer science
+           before going to get a professional diploma in DevOps and Cloud Engineering at Landmark Technologies.</p>
+        <p>Her favorite thing to do is to listen to music and watch some comedy videos. <em>You can click on the links to check them out.</em></p>
+       
+        <div class="media-container">
+            <audio controls>
+                <source src="New_Generation.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="media-container">
+            <video controls>
+                <source src="Craze_Clown.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    
+    <section id="work">
+       
+        <h2> Work Experience</h2>
+        <h2>Black Kids Code • Remote • 07/2022 - Present</h2>
+        <dl>
+            <dt>Instructor</dt>
+            <dd>- Received consistently positive feedback from students, leading to a 98% retention rate semester after semester.</dd>
+            <dd>- Increased student engagement by 25% by implementing interactive learning activities, resulting in improved test scores and positive feedback from students.</dd>
+            <dd>- Increased course completion rates by 15% by incorporating analytical thinking techniques into lesson plans, resulting in higher student success rates.</dd>
+    
+            <dt>Administrative Team Lead</dt>
+            <dd>- Implemented a new training regimen, resulting in an 80% decrease in errors and a 90% increase in report accuracy. Improved student experience and effectively organized the program for smooth operation.</dd>
+            <dd>- Conducted interviews and hiring process, resulting in hiring of 5 highly qualified instructors, mentors, and volunteers.</dd>
+            <dd>- Managed budget and team members, resulting in a 10% decrease in program costs and improved experience for instructors, mentors, and volunteers.</dd>
+            <dd>- Communicated with parents about their child's experience and improvement, resulting in a 25% increase in parent satisfaction and retention.</dd>
+    
+            <dt>Curriculum Developer</dt>
+            <dd>- Collaborated with teachers to create customized lesson plans that catered to individual learning styles, resulting in a 15% increase in student retention.</dd>
+            <dd>- Created interactive online modules for a new course, resulting in 90% student engagement and positive feedback.</dd>
+            <dd>- Conducted thorough needs analysis and created customized training program, leading to a 20% increase in employee productivity and efficiency.</dd>
+            <dd>- Created and implemented a new curriculum that increased student engagement by 25% and improved test scores by 15%.</dd>
+        </dl>
+        <div class="expandable-content">
+        <h2>YURIDE • Remote • 07/2020 - 09/2021</h2>
+        <dl>
+            <dt>Software Developer Intern</dt>
+            <dd>- Led and trained new interns on project using figma, resulting in a 20% increase in project completion rate.</dd>
+            <dd>- Collaborated with a team to develop a bug fix that decreased error rate by 75%, improving overall software functionality and reducing customer complaints.</dd>
+            <dd>- Collaborated with team to develop and improve software, resulting in 20% increase in efficiency and positive feedback from clients.</dd>
+        </dl>
+    
+        <h2>VOLUNTEERING & LEADERSHIP</h2>
+        <dl>
+            <dt>Best Lassonde</dt>
+            <dd>- Software developer • 09/2020 - 04/2021: Collaborated with a team of five to develop a web application analogous to my Course Chat mobile application. Offered the concept to York University at no cost, pivotal in development and initial testing phases with volunteer student testers.</dd>
+    
+            <dt>York University</dt>
+            <dd>- Pear Monitor • 01/2020 - 04/2020: Connected with two incoming York University students, arranged regular meetings, weekly phone calls, organized study sessions, and assisted them in adapting to university life.</dd>
+        </dl>
+        </div>
+
+        <button class="expand-section"> Expand</button>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Let's rub our great mind together</p>
+        <form>
+            <fieldset>
+                <p>
+                    <label for="FName">*First Name: </label>
+                    <input type="text" id="FName" placeholder="Your first name" required>
+                </p>
+                <p>
+                    <label for="LName">*Last Name: </label>
+                    <input type="text" id="LName" placeholder="Your last name" required>
+                </p>
+                <p>
+                    <label for="email">*Email: </label>
+                    <input type="email" placeholder="Your email address" required><br>
+                </p>
+                <p>
+                    <label for="phone">Your phone number:</label>
+                    <input type="tel" placeholder="Enter your phone number">
+                </p>
+                <p>
+                    <input type="radio" name="typeofInfo" required>
+                    <label for="typeofInfo">Work</label>
+                    <input type="radio" name="typeofInfo" required>
+                    <label for="typeofInfo">Student</label>
+                    <input type="radio" name="typeofInfo" required>
+                    <label for="typeofInfo">Internship</label>
+                </p>
+                <p>
+                    <label for="Information">*Detailed Information: </label>
+                    <textarea id="Information" name="Information" required></textarea><br>
+                </p>
+                <p>
+                    <input type="checkbox" required>
+                    <label for="agreement">*By clicking I agree, you consent to receiving a reply from me.</label><br>
+                </p>
+                <p><input type="submit" value="Submit"></p>
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <p style="margin: 5px;">Copyright &copy; 2024 Ayobami Ojo Portfolio</p>
+        <p style="margin: 5px;"><a href="mailto:n01675441@humber.ca" >Email: ayobami@ojo.com</a></p>
+        <p style="margin: 5px;"><a href="https://www.linkedin.com/in/ayobami-ojo-400b58152/"target="_blank">LinkedIn</a> | 
+            <a href="https://github.com/ayobamiOjo"target="_blank">GitHub1</a> | 
+            <a href="https://github.com/DELEXOJ"  target="_blank" >GitHub2</a></p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
